@@ -17,7 +17,7 @@ public abstract class VendingMachine {
 
     public abstract void addProducts (List<Product> products);
 
-    public Product deleteProduct(String name) {
+    public Product getProduct(String name) {
 
         for (Product product : products) {
             if (product.getName().equals(name)) {

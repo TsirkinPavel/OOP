@@ -36,7 +36,7 @@ public class ProductMain {
         //System.out.println(vm1.getProducts());
 
         vm1.getProduct("Кофе Латте", 0.2F, 80);
-        vm1.deleteProduct("Кофе Латте");
+        vm1.getProduct("Кофе Латте");
         System.out.println(vm1.getProducts());
     }
 }
