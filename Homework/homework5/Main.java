@@ -1,5 +1,5 @@
-import view.StudentView;
+import view.StudentGroupView;
 
 public static void main(String[] args) {
-    new StudentView().start();
+    new StudentGroupView().start();
 }

@@ -11,6 +11,22 @@ public abstract class User {
         this.lastName = lastName;
     }
 
+    public String getFirstName() {
+        return name;
+    }
+
+    public void setFirstName(String name) {
+        this.name = name;
+    }
+
+    public String getSecondName() {
+        return lastName;
+    }
+
+    public void setSecondName(String lastName) {
+        this.lastName = lastName;
+    }
+
     @Override
     public String toString() {
         return String.format(getClass().getSimpleName() + ": id = %s, name = %s, lastName = %s", id, name, lastName);

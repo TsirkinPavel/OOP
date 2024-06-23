@@ -11,6 +11,12 @@ public class Student extends User{
         this.groupId = groupId;
     }
 
-    
+    @Override
+    public String toString() {
+        return "Student{" +
+               "studentId='" + id +'\'' +
+               ", firstName='" + name + '\'' +
+               ", secondName='" + lastName + '}';
+    }   
     
 }
