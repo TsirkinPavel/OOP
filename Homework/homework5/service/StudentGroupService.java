@@ -1,9 +1,8 @@
 package service;
 
 import model.impl.Student;
-import model.impl.StudentGroup;
 import model.impl.Teacher;
-
+import model1.impl.StudentGroup;
 
 import java.util.List;
 

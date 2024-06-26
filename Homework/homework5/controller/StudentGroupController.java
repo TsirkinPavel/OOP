@@ -3,7 +3,6 @@ package controller;
 import java.util.List;
 
 import model.impl.Student;
-import model.impl.StudentGroup;
 import model.impl.Teacher;
 import service.StudentGroupService;
 
