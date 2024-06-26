@@ -35,7 +35,7 @@ public class View {
         double b = promptInt("Enter fist complex argument: ");
         String operator = getOperator();
         double c = promptInt("Enter second argument: ");
-        double d = promptInt("Enter second argument: ");
+        double d = promptInt("Enter second complex argument: ");
 
         if (operator.equals("*")) {
             calculator.multiply(a, b, c, d);
